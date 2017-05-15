@@ -4,7 +4,8 @@
   "description": "Demostración de uso de Node JS con Express + Conexión con MongoDB a traves de Mongoose",
   "main": "app.js",
   "scripts": {
-    "start": "node app.js"
+    "start": "node app.js",
+    "go": "nodemon app.js"
   },
   "author": "Nelson Arias Hidalgo",
   "license": "ISC",
@@ -25,8 +26,12 @@
   "dependencies": {
     "body-parser": "^1.17.1",
     "express": "^4.15.2",
+    "express-session": "^1.15.2",
     "jade": "^1.11.0",
     "mongodb": "^2.2.26",
     "mongoose": "^4.9.8"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
   }
 }
