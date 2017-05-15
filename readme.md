@@ -14,11 +14,11 @@ Pre-requisitos:
 * NPM
 * MongoDB
 
-'''
+```
 git clone https://github.com/nariash/demo-node-mongoose.git
 npm install
 npm start
-'''
+```
 
 ## API Reference
 
